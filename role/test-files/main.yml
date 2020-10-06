@@ -1,0 +1,8 @@
+- name: Copy files
+  hosts: test
+  tasks:
+    -copy:
+        src: "files/sync"
+        dest: "/tmp/test"
+        owner: "ansible"
+        group: "ansible"
