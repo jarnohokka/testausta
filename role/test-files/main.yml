@@ -2,7 +2,7 @@
   hosts: test
   tasks:
     -copy:
-        src: "files/sync"
+        src: "/sync"
         dest: "/tmp/test"
         owner: "ansible"
         group: "ansible"
